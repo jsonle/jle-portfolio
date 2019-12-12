@@ -3,19 +3,25 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+import { Container } from 'semantic-ui-react';
+import { Divider } from 'semantic-ui-react'
 import HomePageContainer from './components/homepage/HomePageContainer';
 import NavMenu from './components/nav/NavMenu';
+import ProjectsContainer from './components/projects/ProjectsContainer';
 
 function App() {
   return (
-    <div className="App">
-      <NavMenu />
+    <Container className="App">
       <Router>
-        <Route exact path="/"><HomePageContainer /></Route>
+      <NavMenu />
+      <Divider />
+        <Switch>
+          <Route exact path="/"><HomePageContainer /></Route>
+          <Route path="/projects"><ProjectsContainer /></Route>
+        </Switch>
       </Router>
-    </div>
+    </Container>
   );
 }
 
