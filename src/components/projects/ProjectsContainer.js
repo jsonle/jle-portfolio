@@ -7,7 +7,7 @@ class ProjectsContainer extends Component {
         return (
             <>
                 <Divider horizontal>Projects</Divider>
-                <Item.Group divided>
+                <Item.Group divided className="projects-container">
                     <Item>
                         <Item.Image src={require("../../images/spacejams.jpg")} size="medium" />
                         <Item.Content>
@@ -27,11 +27,11 @@ class ProjectsContainer extends Component {
                                 <Label icon="js" size="large" content="JavaScript"/>
 
                                 <Button.Group basic floated="right">
-                                    <Button href="https://spacejams.herokuapp.com/" target="_blank">
-                                        <Icon name="play" /> Demo Site
-                                    </Button>
                                     <Button href="https://github.com/jsonle/spacejams-frontend" target="_blank">
                                         <Icon name="github" /> GitHub
+                                    </Button>
+                                    <Button href="https://spacejams.herokuapp.com/" target="_blank">
+                                        <Icon name="play" /> Demo Site
                                     </Button>
                                 </Button.Group>
                             </Item.Extra>
@@ -57,11 +57,11 @@ class ProjectsContainer extends Component {
                                 <Label icon="js" size="large" content="JavaScript"/>
 
                                 <Button.Group basic floated="right">
-                                    <Button href="https://petsmatch-frontend.herokuapp.com/" target="_blank">
-                                        <Icon name="play" /> Demo Site
-                                    </Button>
                                     <Button href="https://github.com/jsonle/petsmatch-frontend" target="_blank">
                                         <Icon name="github" /> GitHub
+                                    </Button>
+                                    <Button href="https://petsmatch-frontend.herokuapp.com/" target="_blank">
+                                        <Icon name="play" /> Demo Site
                                     </Button>
                                 </Button.Group>
                             </Item.Extra>
