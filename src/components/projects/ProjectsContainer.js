@@ -27,10 +27,40 @@ class ProjectsContainer extends Component {
                                 <Label icon="js" size="large" content="JavaScript"/>
 
                                 <Button.Group basic floated="right">
-                                    <Button>
+                                    <Button href="https://spacejams.herokuapp.com/" target="_blank">
                                         <Icon name="play" /> Demo Site
                                     </Button>
-                                    <Button href="https://spacejams.herokuapp.com/" target="_blank">
+                                    <Button href="https://github.com/jsonle/spacejams-frontend" target="_blank">
+                                        <Icon name="github" /> GitHub
+                                    </Button>
+                                </Button.Group>
+                            </Item.Extra>
+                        </Item.Content>
+                    </Item>
+
+                    <Item>
+                        <Item.Image src={require("../../images/petsmatch.jpg")} size="medium" />
+                        <Item.Content>
+                            <Item.Header>PetsMatch</Item.Header>
+                            <Item.Meta>
+                                Dating App
+                            </Item.Meta>
+                            <Item.Description>
+                                Dating web application that focuses on filtering your potential matches by pets they own. 
+                                Users can sign up, add pets to their profile, set their preferences, browse for matches,
+                                and chat with their matches live. The app will find potential matches based on preferences 
+                                set by the user.
+                            </Item.Description>
+                            <Item.Extra>
+                                <Label icon="react" size="large" content="React"/>
+                                <Label icon="gem" size="large" content="Ruby"/>
+                                <Label icon="js" size="large" content="JavaScript"/>
+
+                                <Button.Group basic floated="right">
+                                    <Button href="https://petsmatch-frontend.herokuapp.com/" target="_blank">
+                                        <Icon name="play" /> Demo Site
+                                    </Button>
+                                    <Button href="https://github.com/jsonle/petsmatch-frontend" target="_blank">
                                         <Icon name="github" /> GitHub
                                     </Button>
                                 </Button.Group>
