@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import { Menu } from 'semantic-ui-react';
+import { Menu, Icon } from 'semantic-ui-react';
 
 class NavMenu extends Component {
     render() {
         return (
-            <Menu secondary fluid widths={2}>
+            <Menu secondary>
                 <Menu.Item as={Link} to="/" name="about">
                     About
                 </Menu.Item>
@@ -14,13 +14,13 @@ class NavMenu extends Component {
                     Projects
                 </Menu.Item>
 
-                {/* <Menu.Item href="https://github.com/jsonle" target="_blank" name="github">
-                    GitHub
+                <Menu.Item href="https://github.com/jsonle" target="_blank" name="github">
+                    <Icon name="github" />
                 </Menu.Item>
 
                 <Menu.Item href="https://www.linkedin.com/in/jasondle/" target="_blank" name="linkedin">
-                    LinkedIn
-                </Menu.Item> */}
+                    <Icon name="linkedin" />
+                </Menu.Item>
             </Menu>
         )}
 }

@@ -5,17 +5,15 @@ import {
   Route,
 } from "react-router-dom";
 import { Container } from 'semantic-ui-react';
-import { Divider } from 'semantic-ui-react'
 import HomePageContainer from './components/homepage/HomePageContainer';
 import NavMenu from './components/nav/NavMenu';
 import ProjectsContainer from './components/projects/ProjectsContainer';
 
 function App() {
   return (
-    <Container className="App">
+    <Container className="App" >
       <Router>
       <NavMenu />
-      <Divider />
         <Switch>
           <Route exact path="/"><HomePageContainer /></Route>
           <Route path="/projects"><ProjectsContainer /></Route>

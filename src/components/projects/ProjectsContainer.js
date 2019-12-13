@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { Divider } from 'semantic-ui-react';
 
 class ProjectsContainer extends Component {
     state = {  }
     render() { 
-        return (<div className="projects">Projects</div>);
+        return (
+            <Divider horizontal>Projects</Divider>
+        );
     }
 }
  
