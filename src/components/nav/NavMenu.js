@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import { Menu, Icon, Grid } from 'semantic-ui-react';
 import resume from '../../documents/resume.pdf'
+
 class NavMenu extends Component {
     render() {
         return (
