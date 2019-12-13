@@ -30,7 +30,7 @@ class HomePageContainer extends Component {
                         <Header as="h3" textAlign="left" className="technical-toolbox">
                             Technical Toolbox
                         </Header>
-                        <strong>Languages: </strong> JavaScript, Ruby, HTML, class
+                        <strong>Languages: </strong> JavaScript, Ruby, HTML, CSS
                         <br />
                         <strong>Libraries/Frameworks: </strong> React, Rails, Bootstrap, Semantic UI
                     </Grid.Column>
