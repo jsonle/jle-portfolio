@@ -68,6 +68,31 @@ class ProjectsContainer extends Component {
                         </Item.Content>
                     </Item>
 
+                    <Item>
+                        <Item.Image src={require("../../images/applexchange.jpg")} size="medium" />
+                        <Item.Content>
+                            <Item.Header>AppleXChange</Item.Header>
+                            <Item.Meta>
+                                E-Commerce Site
+                            </Item.Meta>
+                            <Item.Description>
+                                A marketplace where users can buy iPhones and Macbooks from other people or list their own for sale.
+                                Features posting reviews of products, comments on listings, and liking other users to increase approval rating.
+                            </Item.Description>
+                            <Item.Extra>
+                                <Label icon="gem" size="large" content="Ruby"/>
+                                <Button.Group basic floated="right">
+                                    <Button href="https://github.com/hemeshvpatel/AppleXchange" target="_blank">
+                                        <Icon name="github" /> GitHub
+                                    </Button>
+                                    <Button href="https://applexchange.herokuapp.com/" target="_blank">
+                                        <Icon name="play" /> Demo Site
+                                    </Button>
+                                </Button.Group>
+                            </Item.Extra>
+                        </Item.Content>
+                    </Item>
+
                 </Item.Group>
             </>
         );
