@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Divider, Image, Item, Icon, Button, Label } from 'semantic-ui-react';
+import { Divider, Item, Icon, Button, Label } from 'semantic-ui-react';
 
 class ProjectsContainer extends Component {
     state = {  }
