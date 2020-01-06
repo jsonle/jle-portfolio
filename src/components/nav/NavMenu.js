@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import { Menu, Icon, Grid } from 'semantic-ui-react';
-import resume from '../../documents/resume.pdf'
+import { Menu, Icon } from 'semantic-ui-react';
+import JasonLeResume from '../../documents/JasonLeResume.pdf'
 
 class NavMenu extends Component {
     render() {
@@ -15,7 +15,7 @@ class NavMenu extends Component {
                         <strong>Projects</strong>
                     </Menu.Item>
 
-                    <Menu.Item href={resume} target="_blank" name="resume">
+                    <Menu.Item href={JasonLeResume} target="_blank" name="resume">
                         <strong>Resume</strong>
                     </Menu.Item>
 
