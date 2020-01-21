@@ -25,8 +25,8 @@ class HomePageContainer extends Component {
                             This ultimately led me to attend a coding bootcamp and switch careers. 
                             Having grown up around computers and in Silicon Valley, 
                             my interests have always been in tech, which made pursuing a career in software 
-                            engineering a natural switch for me. I am excited to apply my skills to technology
-                            that improves people’s lives while also continuing to improve and learn from others.
+                            engineering a natural switch for me. I am excited to apply my skills and work
+                            collaboratively to contribute to technology that improves the lives of others.
                         </p>
 
                         <Header as="h3" textAlign="left" className="technical-toolbox">
