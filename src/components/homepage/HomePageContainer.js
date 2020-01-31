@@ -20,13 +20,12 @@ class HomePageContainer extends Component {
                         <p>
                             Before attending Flatiron School's immersive software engineering program, 
                             I worked in accounting as my first post-college job. While working with various
-                            accounting software and systems, I became more and more interested in the tech side of things
-                            and yearned to apply problem solving skills to technology based products.
-                            This ultimately led me to attend a coding bootcamp and switch careers. 
-                            Having grown up around computers and in Silicon Valley, 
-                            my interests have always been in tech, which made pursuing a career in software 
-                            engineering a natural switch for me. I am excited to apply my skills and work
-                            collaboratively to contribute to technology that improves the lives of others.
+                            accounting software, I became more and more interested in the tech side of things
+                            and yearned to apply my problem solving skills to technology based products.
+                            Having grown up around computers and in Silicon Valley, my interests have always been in tech, 
+                            which made pursuing a career in software engineering a natural switch for me. 
+                            This ultimately led me to attend a coding bootcamp! Now finished and still eager to learn,
+                            I am excited to apply my skills and work collaboratively to contribute and make an impact in the tech space.
                         </p>
 
                         <Header as="h3" textAlign="left" className="technical-toolbox">
@@ -35,6 +34,8 @@ class HomePageContainer extends Component {
                         <strong>Languages: </strong> JavaScript, Ruby, HTML, CSS
                         <br />
                         <strong>Libraries/Frameworks: </strong> React, Rails, Bootstrap, Semantic UI
+                        <br />
+                        <strong>Other Technical Skills: </strong> GraphQL, PostgreSQL, MongoDB, Git, OOP
                     </Grid.Column>
                 </Grid>
             </div>
