@@ -35,7 +35,7 @@ class HomePageContainer extends Component {
                         <br />
                         <strong>Libraries/Frameworks: </strong> React, Rails, Bootstrap, Semantic UI
                         <br />
-                        <strong>Other Technical Skills: </strong> GraphQL, PostgreSQL, MongoDB, Git, OOP
+                        <strong>Other Technical Skills: </strong>  PostgreSQL, Git, OOP, AJAX, GraphQL
                     </Grid.Column>
                 </Grid>
             </div>
